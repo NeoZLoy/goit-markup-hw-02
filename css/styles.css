@@ -1,0 +1,94 @@
+:root {
+	--main-color: #2e2f42;
+	--sceondary-color: #434455;
+	--accent-color: #4d5ae5;
+	--white-primary: #ffffff;
+	--white-secondary: #f4f4fd;
+}
+body {
+	font-family: Roboto, sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	background-color: var(--white-primary);
+}
+
+h1 {
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 1.07;
+	color: #ffffff;
+}
+h2 {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.1;
+	color: var(--main-color);
+	text-align: center;
+}
+
+h3 {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	color: var(--main-color);
+}
+
+footer {
+	background-color: var(--main-color);
+}
+
+.list {
+	list-style: none;
+}
+
+.link {
+	text-decoration: none;
+}
+/* Logo */
+.logo {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 1.3;
+	font-weight: 800;
+	color: var(--main-color);
+}
+.accent-logo {
+	color: var(--accent-color);
+}
+
+/* Menu */
+.menu-item {
+	color: var(--main-color);
+	font-weight: 500;
+}
+
+.contacts a {
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.5;
+	color: var(--sceondary-color);
+}
+
+/* Hero section */
+.hero {
+	background-color: var(--main-color);
+}
+
+/* Button */
+.btn {
+	font-weight: 500;
+	line-height: 1.5;
+	background-color: var(--accent-color);
+	color: #ffffff;
+}
+/* Team section */
+.team {
+	background-color: var(--white-secondary);
+}
+
+/* Footer */
+.logo-footer {
+	color: var(--white-secondary);
+}
