@@ -138,7 +138,8 @@ footer {
 
 /* Active elements in Portfolio */
 .work-card:hover,
-.work-card:focus {
+.work-card:focus,
+.work-card:visited {
 	background-color: var(--accent-color);
 }
 
