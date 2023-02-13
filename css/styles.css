@@ -4,6 +4,7 @@
 	--accent-color: #4d5ae5;
 	--white-primary: #ffffff;
 	--white-secondary: #f4f4fd;
+	--active-color: #404bbf;
 }
 body {
 	font-family: Roboto, sans-serif;
@@ -45,6 +46,7 @@ footer {
 .link {
 	text-decoration: none;
 }
+
 /* Logo */
 .logo {
 	text-decoration: none;
@@ -77,11 +79,12 @@ footer {
 }
 
 /* Button */
-.btn {
+.main-btn {
 	font-weight: 500;
 	line-height: 1.5;
 	background-color: var(--accent-color);
 	color: #ffffff;
+	cursor: pointer;
 }
 /* Team section */
 .team {
@@ -91,4 +94,46 @@ footer {
 /* Footer */
 .logo-footer {
 	color: var(--white-secondary);
+}
+.footer-text {
+	color: #e7e9fc;
+}
+
+/* Active elements */
+.active {
+	color: var(--active-color);
+}
+.menu-item:hover,
+.menu-item:focus {
+	color: var(--active-color);
+}
+.contact-item:hover,
+.contact-item:focus,
+.contact-item:active {
+	color: var(--active-color);
+}
+.main-btn:hover,
+.main-btn:focus {
+	background-color: var(--active-color);
+}
+
+/* Portfolio */
+/* Filters */
+.btn {
+	font-weight: 500;
+	line-height: 1.5;
+	background-color: var(--white-secondary);
+	color: var(--accent-color);
+	cursor: pointer;
+}
+.btn:hover,
+.btn:focus,
+.btn:active {
+	background-color: var(--active-color);
+	color: var(--white-primary);
+}
+
+/* Work list */
+.work-filter {
+	color: var(--sceondary-color);
 }
