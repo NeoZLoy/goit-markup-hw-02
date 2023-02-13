@@ -126,14 +126,25 @@ footer {
 	color: var(--accent-color);
 	cursor: pointer;
 }
+/* Work list */
+.work-filter {
+	color: var(--sceondary-color);
+}
+
+.work-desc {
+	background-color: var(--accent-color);
+	color: var(--white-secondary);
+}
+
+/* Active elements in Portfolio */
+.work-card:hover,
+.work-card:focus {
+	background-color: var(--accent-color);
+}
+
 .btn:hover,
 .btn:focus,
 .btn:active {
 	background-color: var(--active-color);
 	color: var(--white-primary);
-}
-
-/* Work list */
-.work-filter {
-	color: var(--sceondary-color);
 }
