@@ -15,13 +15,13 @@ body {
 	background-color: var(--white-primary);
 }
 
-h1 {
+.hero-title {
 	font-size: 56px;
 	font-weight: 700;
 	line-height: 1.07;
 	color: #ffffff;
 }
-h2 {
+.sect-title {
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.1;
@@ -29,7 +29,7 @@ h2 {
 	text-align: center;
 }
 
-h3 {
+.item-title {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
@@ -46,6 +46,10 @@ footer {
 
 .link {
 	text-decoration: none;
+}
+.link:visited {
+	text-decoration: none;
+	color: var(--main-color);
 }
 
 /* Logo */
