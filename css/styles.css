@@ -11,6 +11,7 @@ body {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
+	color: #434455;
 	background-color: var(--white-primary);
 }
 
@@ -78,10 +79,12 @@ footer {
 	background-color: var(--main-color);
 }
 
-/* Button */
+/* Main Button */
 .main-btn {
 	font-weight: 500;
 	line-height: 1.5;
+	letter-spacing: 0.04em;
+	font-size: 16px;
 	background-color: var(--accent-color);
 	color: #ffffff;
 	cursor: pointer;
@@ -93,6 +96,12 @@ footer {
 
 /* Footer */
 .logo-footer {
+	font-style: normal;
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 1.17;
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
 	color: var(--white-secondary);
 }
 .footer-text {
@@ -148,4 +157,17 @@ footer {
 .btn:active {
 	background-color: var(--active-color);
 	color: var(--white-primary);
+}
+
+/* Hidden elements */
+
+.hidden-visually {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	border: 0;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
 }
