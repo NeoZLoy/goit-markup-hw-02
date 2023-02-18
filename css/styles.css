@@ -5,6 +5,7 @@
 	--white-primary: #ffffff;
 	--white-secondary: #f4f4fd;
 	--active-color: #404bbf;
+	--btn-color: #e7e9fc;
 }
 body {
 	font-family: Roboto, sans-serif;
@@ -46,10 +47,6 @@ footer {
 
 .link {
 	text-decoration: none;
-}
-.link:visited {
-	text-decoration: none;
-	color: var(--main-color);
 }
 
 /* Logo */
@@ -109,7 +106,7 @@ footer {
 	color: var(--white-secondary);
 }
 .footer-text {
-	color: #e7e9fc;
+	color: var(--btn-color);
 }
 
 /* Active elements */
@@ -135,13 +132,21 @@ footer {
 .btn {
 	font-weight: 500;
 	line-height: 1.5;
-	background-color: var(--white-secondary);
+	background-color: var(--btn-color);
 	color: var(--accent-color);
 	cursor: pointer;
+	border-radius: 4px;
 }
 /* Work list */
 .work-filter {
 	color: var(--sceondary-color);
+}
+
+.work-title {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	color: var(--main-color);
 }
 
 .work-desc {
