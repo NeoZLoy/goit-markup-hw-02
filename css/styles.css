@@ -132,10 +132,12 @@ footer {
 .btn {
 	font-weight: 500;
 	line-height: 1.5;
-	background-color: var(--btn-color);
+	background-color: var(--white-secondary);
 	color: var(--accent-color);
 	cursor: pointer;
+	border: 1px solid;
 	border-radius: 4px;
+	border-color: var(--btn-color);
 }
 /* Work list */
 .work-filter {
@@ -155,17 +157,12 @@ footer {
 }
 
 /* Active elements in Portfolio */
-.work-card:hover,
-.work-card:focus,
-.work-card:visited {
-	background-color: var(--accent-color);
-}
-
 .btn:hover,
 .btn:focus,
 .btn:active {
 	background-color: var(--active-color);
 	color: var(--white-primary);
+	border-color: transparent;
 }
 
 /* Hidden elements */
